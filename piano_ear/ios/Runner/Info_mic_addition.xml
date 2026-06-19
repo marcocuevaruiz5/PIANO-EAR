@@ -1,3 +1,0 @@
-<!-- Agregar al Info.plist de iOS (dentro del dict raiz): -->
-<key>NSMicrophoneUsageDescription</key>
-<string>Piano Ear necesita acceso al microfono para detectar y transcribir las notas del piano en tiempo real.</string>
