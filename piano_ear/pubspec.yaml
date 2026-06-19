@@ -1,0 +1,41 @@
+name: piano_ear
+description: >
+  Piano Ear — escucha el piano a través del micrófono, transcribe notas y
+  acordes en tiempo real, genera partitura automáticamente y enseña a tocar
+  con un modo de aprendizaje tipo "lluvia de notas".
+publish_to: "none"
+version: 0.1.0
+
+environment:
+  sdk: ">=3.3.0 <4.0.0"
+  flutter: ">=3.19.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  cupertino_icons: ^1.0.8
+
+  # Estado / arquitectura
+  provider: ^6.1.2
+
+  # Captura de audio en tiempo real (stream PCM16) y reproducción
+  flutter_sound: ^9.2.13
+  just_audio: ^0.9.40
+  permission_handler: ^11.3.1
+
+  # Persistencia local
+  sqflite: ^2.3.3
+  path: ^1.9.0
+  path_provider: ^2.1.4
+
+  # Utilidades
+  uuid: ^4.4.0
+  intl: ^0.19.0
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^4.0.0
+
+flutter:
+  uses-material-design: true
